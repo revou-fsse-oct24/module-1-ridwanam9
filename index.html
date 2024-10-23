@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dapurku</title>
+</head>
+<body>
+    <header>
+        <h1>Dapurku</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">Tentang</a></li>
+                <li><a href="#services">Layanan</a></li>
+                <li><a href="#contact">Kontak</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="about">
+            <h2>Tentang Kami</h2>
+            <p>Dapurku adalah sebuah resto yang terletak di kota Pontianak di mana mereka menyediakan makanan-makanan khas dari berbagai daerah di seluruh Indonesia. Adapun website Dapurku digunakan agar customer dapat memesan makanan secara online. Disamping memesan makanan, disediakan juga layanan booking reservasi secara online sehingga anda tidak perlu melakukan booking offline</p>
+        </section>
+
+        <section id="services">
+            <h2>Layanan Kami</h2>
+            <ul>
+                <li>Pesan Makanan</li>
+                <li>Reservasi Online</li>
+            </ul>
+        </section>
+
+        <section id="contact">
+            <h2>Hubungi Kami</h2>
+            <form action="#" method="post">
+                <div>
+                    <label for="name">Nama:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div>
+                    <label for="message">Pesan:</label>
+                    <textarea id="message" name="message" required></textarea>
+                </div>
+                <div>
+                    <fieldset>
+                        <legend>Metode Kontak:</legend>
+                        <input type="radio" id="contact-email" name="contact-pref" value="email">
+                        <label for="contact-email">Email</label>
+                        <input type="radio" id="contact-phone" name="contact-pref" value="phone">
+                        <label for="contact-phone">Hp</label>
+                    </fieldset>
+                </div>
+                
+                <div>
+                    <button type="submit">Submit</button>
+                </div>
+            </form>
+        </section>
+    </main>
+
+</body>
+</html>
