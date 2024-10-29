@@ -46,7 +46,8 @@ header .container {
 
 /* Hero section */
 #hero {
-    background: linear-gradient(to right, #FF6B35, #F7C59F);
+    /* background: linear-gradient(to right, #FF6B35, #F7C59F); */
+    background-image: url('assets/images/kuliner-indonesia.jpg');
     color: white;
     text-align: center;
     padding: 4rem 0;
