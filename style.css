@@ -24,6 +24,9 @@ header {
     background-color: #FF6B35;
     color: white;
     padding: 1rem 0;
+    position: sticky; /* Menjadikan header sticky */
+    top: 0; /* Menempel di atas saat digulir */
+    z-index: 1000; /* Menjaga header tetap di atas konten lainnya */
 }
 
 header .container {
