@@ -34,6 +34,24 @@ header {
     margin-right: 0.5rem; /* Jarak antara logo dan judul */
 }
 
+/* Hero section */
+#hero {
+    background: linear-gradient(to right, #FF6B35, #F7C59F);
+    color: white;
+    text-align: center;
+    padding: 4rem 0;
+}
+
+#hero h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+#hero p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+}
+
 header h1 {
     font-size: 2.5rem;
     margin: 0;
@@ -64,18 +82,18 @@ nav ul li a:hover {
 
 
 /* Main content styles */
-main {
+/* main {
     max-width: 800px;
     margin: 2rem auto;
     padding: 0 1rem;
-}
+} */
 
 section {
-    background-color: #fff;
-    margin-bottom: 2rem;
-    padding: 2rem;
-    border-radius: 5px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    /* background-color: #fff;
+    margin-bottom: 2rem; */
+    padding: 4rem 0;
+    /* border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); */
 }
 
 h2 {
@@ -185,9 +203,9 @@ footer {
         margin: 0.5rem 0;
     }
 
-    main {
+    /* main {
         padding: 0 0.5rem;
-    }
+    } */
 
     section {
         padding: 1rem;
