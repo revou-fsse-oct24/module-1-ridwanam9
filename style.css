@@ -50,7 +50,7 @@ header .container {
 /* Hero section */
 #hero {
     /* background: linear-gradient(to right, #FF6B35, #F7C59F); */
-    background-image: url('assets/images/kuliner-indonesia.jpg');
+    background-image: url('assets/images/download2.jpg');
     color: white;
     text-align: center;
     padding: 4rem 0;
@@ -138,6 +138,9 @@ section h2 {
     margin-bottom: 2rem;
 }
 
+section p{
+    font-size: 1.2rem;
+}
 
 /* Services section */
 .services-grid {
