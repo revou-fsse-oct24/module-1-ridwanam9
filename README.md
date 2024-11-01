@@ -19,7 +19,17 @@ Adapun fitur pada website sebagai berikut:
 - Kontak Form dengan variasi input data
 
 
+## Bagian
+
+1. **Header**: Berisi logo, nama restoran, dan menu navigasi.
+2. **Hero**: Berisi dengan tagline dan tombol Jelajahi layanan kami.
+3. **About**: Memberikan informasi tentang Dapurku dan penawarannya.
+4. **Services**: Menyoroti layanan utama - pemesanan makanan online dan reservasi meja.
+5. **Contact**: Berisi formulir kontak dan informasi kontak restoran.
+6. **Footer**: Menampilkan logo, tautan cepat, dan pemberitahuan hak cipta.
+
+
 ## Preview
 
-![Website Preview](landing_page.png)
+![Website Preview](assets/images_documentation/landing_page2.png)
 
