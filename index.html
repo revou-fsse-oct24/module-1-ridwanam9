@@ -1,16 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Dapurku</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
+    <style>
+        @font-face {
+            font-family: "Bitstream Vera Serif Bold";
+            src: url("https://mdn.github.io/css-examples/web-fonts/VeraSeBd.ttf");
+        }
+
+        body {
+            font-family: "Bitstream Vera Serif Bold", serif;
+        }
+    </style>
 </head>
+
 <body>
     <header>
         <div class="container">
             <div class="logo-title">
-                <img src="assets/images/logo.png" alt="Dapurku Logo" class="logo">
+                <img src="assets/images/logo.png" alt="Dapurku Logo" class="logo" />
                 <h1>Dapurku</h1>
             </div>
             <nav>
@@ -25,8 +37,6 @@
             </button>
         </div>
     </header>
-    
-    
 
     <main>
         <section id="hero">
@@ -40,32 +50,37 @@
         <section id="about">
             <div class="container about-hero">
                 <picture>
-                    <source media="(min-width: 768px)" srcset="assets/images/kuliner-indonesia.jpg">
-                    <source media="(max-width: 767px)" srcset="assets/images/kuliner-indonesia.jpg">
-                    <img src="assets/images/kuliner-indonesia.jpg" alt="Tentang Kami" class="about-image">
+                    <source media="(min-width: 768px)" srcset="assets/images/kuliner-indonesia.jpg" />
+                    <source media="(max-width: 767px)" srcset="assets/images/kuliner-indonesia.jpg" />
+                    <img src="assets/images/kuliner-indonesia.jpg" alt="Tentang Kami" class="about-image" />
                 </picture>
                 <div class="about-content">
                     <h2>Tentang Kami</h2>
-                    <p>Dapurku adalah sebuah resto yang terletak di kota Pontianak di mana kami menyediakan makanan-makanan khas dari berbagai daerah di seluruh Indonesia. Website Dapurku memungkinkan Anda untuk memesan makanan secara online dan melakukan reservasi meja dengan mudah, tanpa perlu datang langsung ke restoran.</p>
+                    <p>
+                        Dapurku adalah sebuah resto yang terletak di kota Pontianak di
+                        mana kami menyediakan makanan-makanan khas dari berbagai daerah di
+                        seluruh Indonesia. Website Dapurku memungkinkan Anda untuk memesan
+                        makanan secara online dan melakukan reservasi meja dengan mudah,
+                        tanpa perlu datang langsung ke restoran.
+                    </p>
                 </div>
             </div>
         </section>
-        
+
         <section id="gallery">
             <div class="container">
                 <h2>Galeri</h2>
                 <div class="asymmetrical-grid">
-                    <img src="assets/images/gudeg-jogja.jpg" alt="Makanan 1" class="grid-item">
-                    <img src="assets/images/download2.jpg" alt="Makanan 2" class="grid-item">
-                    <img src="assets/images/kuliner-indonesia.jpg" alt="Makanan 3" class="grid-item">
-                    <img src="assets/images/labu_siam.webp" alt="Makanan 4" class="grid-item">
-                    <img src="assets/images/opor_ayam.webp" alt="Makanan 5" class="grid-item">
-                    <img src="assets/images/bumbu-sate-madura.jpg" alt="Makanan 6" class="grid-item">
-                    <img src="assets/images/rawon.webp" alt="Makanan 7" class="grid-item">
+                    <img src="assets/images/gudeg-jogja.jpg" alt="Makanan 1" class="grid-item" />
+                    <img src="assets/images/download2.jpg" alt="Makanan 2" class="grid-item" />
+                    <img src="assets/images/kuliner-indonesia.jpg" alt="Makanan 3" class="grid-item" />
+                    <img src="assets/images/labu_siam.webp" alt="Makanan 4" class="grid-item" />
+                    <img src="assets/images/opor_ayam.webp" alt="Makanan 5" class="grid-item" />
+                    <img src="assets/images/bumbu-sate-madura.jpg" alt="Makanan 6" class="grid-item" />
+                    <img src="assets/images/rawon.webp" alt="Makanan 7" class="grid-item" />
                 </div>
             </div>
         </section>
-        
 
         <section id="services">
             <div class="container">
@@ -76,14 +91,20 @@
                             <i data-lucide="utensils"></i>
                         </div>
                         <h3>Pesan Makanan</h3>
-                        <p>Pesan makanan favorit Anda secara online dan nikmati kenyamanan pengiriman langsung ke rumah Anda.</p>
+                        <p>
+                            Pesan makanan favorit Anda secara online dan nikmati kenyamanan
+                            pengiriman langsung ke rumah Anda.
+                        </p>
                     </div>
                     <div class="service-card">
                         <div class="service-icon">
                             <i data-lucide="calendar"></i>
                         </div>
                         <h3>Reservasi Online</h3>
-                        <p>Booking meja Anda secara online untuk memastikan pengalaman makan yang nyaman tanpa harus menunggu.</p>
+                        <p>
+                            Booking meja Anda secara online untuk memastikan pengalaman
+                            makan yang nyaman tanpa harus menunggu.
+                        </p>
                     </div>
                 </div>
             </div>
@@ -96,11 +117,11 @@
                     <form>
                         <div class="form-group">
                             <label for="name">Nama</label>
-                            <input type="text" id="name" name="name" required>
+                            <input type="text" id="name" name="name" required />
                         </div>
                         <div class="form-group">
                             <label for="email">Email</label>
-                            <input type="email" id="email" name="email" required>
+                            <input type="email" id="email" name="email" required />
                         </div>
                         <div class="form-group">
                             <label for="message">Pesan</label>
@@ -110,11 +131,11 @@
                             <fieldset>
                                 <legend>Metode Kontak:</legend>
                                 <label>
-                                    <input type="radio" name="contact-pref" value="email">
+                                    <input type="radio" name="contact-pref" value="email" />
                                     Email
                                 </label>
                                 <label>
-                                    <input type="radio" name="contact-pref" value="phone">
+                                    <input type="radio" name="contact-pref" value="phone" />
                                     Hp
                                 </label>
                             </fieldset>
@@ -143,7 +164,7 @@
         <div class="container">
             <div class="footer-content">
                 <div class="footer-logo">
-                    <img src="assets/images/logo.png" alt="Dapurku Logo" class="logo">
+                    <img src="assets/images/logo.png" alt="Dapurku Logo" class="logo" />
                     <span>Dapurku</span>
                 </div>
                 <nav>
@@ -160,4 +181,5 @@
         </div>
     </footer>
 </body>
+
 </html>
